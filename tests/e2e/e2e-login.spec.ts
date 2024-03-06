@@ -15,11 +15,10 @@ test.describe.parallel("Login / Logout Flow", () => {
         await homePage.visit()
     })
     //Negative Scenario
-    test.skip('Negative Scenario for login', async ({ page }) => {
+    test('Negative Scenario for login', async ({ page }) => {
 
         await homePage.clickOnSignIn()
-        await loginPage.login('invalid_username','invalid_password')
-        await loginPage.wait(3000)
+        await loginPage.loginInvalid('invalid_username','invalid_password')
         await loginPage.assertErrorMessage()
     })
     
@@ -27,6 +26,7 @@ test.describe.parallel("Login / Logout Flow", () => {
     test("Positive Scenario for Login / Logout", async ({page}) => {
         await homePage.clickOnSignIn()
         await loginPage.login("username", "password")
+        await loginPage.wait(3000)
         await loginPage.assertAccountSummaryTabVisible()
         
         await page.goto('http://zero.webappsecurity.com/logout.html')

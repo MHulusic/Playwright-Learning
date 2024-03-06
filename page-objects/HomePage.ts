@@ -22,7 +22,6 @@ export class HomePage extends AbstractPage{
 
     async clickOnSignIn() {
         await this.signInButton.click()
-        await this.page.goto("http://zero.webappsecurity.com/bank/transfer-funds.html")
     }
 
     async clickOnFeedbackLink() {
