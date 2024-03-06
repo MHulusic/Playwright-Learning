@@ -3,7 +3,7 @@ import { HomePage } from '../../page-objects/HomePage'
 import { LoginPage } from '../../page-objects/LoginPage'
 
 
-test.describe.skip("Login page Visual Tests", () => {
+test.describe.only("Login page Visual Tests", () => {
 
     let homePage: HomePage
     let loginPage: LoginPage
