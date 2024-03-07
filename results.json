@@ -1,0 +1,1071 @@
+{
+  "config": {
+    "configFile": "C:\\Mustafa\\PlayWright\\Practice\\playwright.config.ts",
+    "rootDir": "C:/Mustafa/PlayWright/Practice/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Mustafa/PlayWright/Practice/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "C:/Mustafa/PlayWright/Practice/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Mustafa/PlayWright/Practice/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "C:/Mustafa/PlayWright/Practice/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Mustafa/PlayWright/Practice/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Webkit",
+        "name": "Webkit",
+        "testDir": "C:/Mustafa/PlayWright/Practice/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.42.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "e2e-currency-exchange.spec.ts",
+      "file": "e2e-currency-exchange.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Currency Exchange Form",
+          "file": "e2e-currency-exchange.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Should make currency exchange",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 7878,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:37.663Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4297919930cf6ea79170-58d1ff3ed40d3c5fef6c",
+              "file": "e2e-currency-exchange.spec.ts",
+              "line": 24,
+              "column": 9
+            },
+            {
+              "title": "Should make currency exchange",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Firefox",
+                  "projectName": "Firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 8352,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:46.609Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4297919930cf6ea79170-6ade457e5011fa4080ce",
+              "file": "e2e-currency-exchange.spec.ts",
+              "line": 24,
+              "column": 9
+            },
+            {
+              "title": "Should make currency exchange",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Webkit",
+                  "projectName": "Webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "status": "passed",
+                      "duration": 6404,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:58.556Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4297919930cf6ea79170-8e3a08629b0bd20d30e1",
+              "file": "e2e-currency-exchange.spec.ts",
+              "line": 24,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e-filter-transactions.spec.ts",
+      "file": "e2e-filter-transactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Account activities",
+          "file": "e2e-filter-transactions.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify results for each account",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 7962,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:37.676Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "951e47f4c23321f5abb2-f8398568f3b5882a3f31",
+              "file": "e2e-filter-transactions.spec.ts",
+              "line": 24,
+              "column": 9
+            },
+            {
+              "title": "Verify results for each account",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Firefox",
+                  "projectName": "Firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 7525,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:46.696Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "951e47f4c23321f5abb2-2c41b07bcd2759d58c02",
+              "file": "e2e-filter-transactions.spec.ts",
+              "line": 24,
+              "column": 9
+            },
+            {
+              "title": "Verify results for each account",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Webkit",
+                  "projectName": "Webkit",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "status": "passed",
+                      "duration": 5768,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:58.691Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "951e47f4c23321f5abb2-b5d9322be58d0f25563f",
+              "file": "e2e-filter-transactions.spec.ts",
+              "line": 24,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e-login.spec.ts",
+      "file": "e2e-login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login / Logout Flow",
+          "file": "e2e-login.spec.ts",
+          "line": 6,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Negative Scenario for login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 5802,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:37.683Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "598480d8c8194cefa972-1201ee27e4ef2346989e",
+              "file": "e2e-login.spec.ts",
+              "line": 18,
+              "column": 9
+            },
+            {
+              "title": "Positive Scenario for Login / Logout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 11295,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:37.672Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "598480d8c8194cefa972-796765a221e3f410b084",
+              "file": "e2e-login.spec.ts",
+              "line": 26,
+              "column": 9
+            },
+            {
+              "title": "Negative Scenario for login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Firefox",
+                  "projectName": "Firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 4998,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:46.773Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "598480d8c8194cefa972-a41c347fe284b1b86c72",
+              "file": "e2e-login.spec.ts",
+              "line": 18,
+              "column": 9
+            },
+            {
+              "title": "Positive Scenario for Login / Logout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Firefox",
+                  "projectName": "Firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 9078,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:46.948Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "598480d8c8194cefa972-08517ac1072b39fd1056",
+              "file": "e2e-login.spec.ts",
+              "line": 26,
+              "column": 9
+            },
+            {
+              "title": "Negative Scenario for login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Webkit",
+                  "projectName": "Webkit",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "status": "passed",
+                      "duration": 3424,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:59.060Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "598480d8c8194cefa972-6c5c6dd80a717c4adb9a",
+              "file": "e2e-login.spec.ts",
+              "line": 18,
+              "column": 9
+            },
+            {
+              "title": "Positive Scenario for Login / Logout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Webkit",
+                  "projectName": "Webkit",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "status": "passed",
+                      "duration": 7025,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:41:00.768Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "598480d8c8194cefa972-566a84ecc516cb14920a",
+              "file": "e2e-login.spec.ts",
+              "line": 26,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e-payment.spec.ts",
+      "file": "e2e-payment.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "New Payment",
+          "file": "e2e-payment.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Should send new payment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 7855,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:37.686Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "94e18375a5466d73bd26-b99e645a9b2fd3fa8360",
+              "file": "e2e-payment.spec.ts",
+              "line": 24,
+              "column": 9
+            },
+            {
+              "title": "Should send new payment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Firefox",
+                  "projectName": "Firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "status": "passed",
+                      "duration": 7158,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:52.473Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "94e18375a5466d73bd26-0bf0728aa6dad71020a4",
+              "file": "e2e-payment.spec.ts",
+              "line": 24,
+              "column": 9
+            },
+            {
+              "title": "Should send new payment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Webkit",
+                  "projectName": "Webkit",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "status": "passed",
+                      "duration": 5462,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:41:02.079Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "94e18375a5466d73bd26-ff7b516dc2abc7c64072",
+              "file": "e2e-payment.spec.ts",
+              "line": 24,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e-search.spec.ts",
+      "file": "e2e-search.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Search Results",
+          "file": "e2e-search.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Should find search results",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 4882,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:37.727Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01178943e291f9f56b9c-c359754d72ddbe673bfb",
+              "file": "e2e-search.spec.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Should find search results",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Firefox",
+                  "projectName": "Firefox",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "status": "passed",
+                      "duration": 4224,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:52.194Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01178943e291f9f56b9c-d24e7455a1188117e1c8",
+              "file": "e2e-search.spec.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Should find search results",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Webkit",
+                  "projectName": "Webkit",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "status": "passed",
+                      "duration": 2354,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:41:02.596Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01178943e291f9f56b9c-d286020c44e9ee0a2a39",
+              "file": "e2e-search.spec.ts",
+              "line": 6,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e-submit-form.spec.ts",
+      "file": "e2e-submit-form.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Feedback Form",
+          "file": "e2e-submit-form.spec.ts",
+          "line": 5,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Reset feedback form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 2404,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:43.146Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "496c7225ed1cf5027599-614993c2137b6efae76c",
+              "file": "e2e-submit-form.spec.ts",
+              "line": 18,
+              "column": 9
+            },
+            {
+              "title": "Submit feedback form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 2291,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:44.109Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "496c7225ed1cf5027599-6959b311925ac9fbe2d4",
+              "file": "e2e-submit-form.spec.ts",
+              "line": 29,
+              "column": 9
+            },
+            {
+              "title": "Reset feedback form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Firefox",
+                  "projectName": "Firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 3896,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:52.656Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "496c7225ed1cf5027599-47b3a342dca604e81e9c",
+              "file": "e2e-submit-form.spec.ts",
+              "line": 18,
+              "column": 9
+            },
+            {
+              "title": "Submit feedback form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Firefox",
+                  "projectName": "Firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 3927,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:55.173Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "496c7225ed1cf5027599-73f844c4fdfd5a275d02",
+              "file": "e2e-submit-form.spec.ts",
+              "line": 29,
+              "column": 9
+            },
+            {
+              "title": "Reset feedback form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Webkit",
+                  "projectName": "Webkit",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "status": "passed",
+                      "duration": 2813,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:41:02.690Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "496c7225ed1cf5027599-02e2368c9c206308607a",
+              "file": "e2e-submit-form.spec.ts",
+              "line": 18,
+              "column": 9
+            },
+            {
+              "title": "Submit feedback form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Webkit",
+                  "projectName": "Webkit",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "status": "passed",
+                      "duration": 2832,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:41:05.002Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "496c7225ed1cf5027599-7f7c6931d9fd159f8605",
+              "file": "e2e-submit-form.spec.ts",
+              "line": 29,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e-transfer-funds.spec.ts",
+      "file": "e2e-transfer-funds.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Transfer funds and make payments",
+          "file": "e2e-transfer-funds.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Transfer funds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 4381,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:45.560Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3814c99fcaa2ddc4a9bf-8d661a065205534e2145",
+              "file": "e2e-transfer-funds.spec.ts",
+              "line": 21,
+              "column": 9
+            },
+            {
+              "title": "Transfer funds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Firefox",
+                  "projectName": "Firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 5272,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:40:56.019Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3814c99fcaa2ddc4a9bf-751ea4920d902798ab2a",
+              "file": "e2e-transfer-funds.spec.ts",
+              "line": 21,
+              "column": 9
+            },
+            {
+              "title": "Transfer funds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Webkit",
+                  "projectName": "Webkit",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "status": "passed",
+                      "duration": 4063,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-03-07T09:41:05.043Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3814c99fcaa2ddc4a9bf-ea5944f1e5d23aafde3d",
+              "file": "e2e-transfer-funds.spec.ts",
+              "line": 21,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-03-07T09:40:37.202Z",
+    "duration": 31956.688000000002,
+    "expected": 27,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
